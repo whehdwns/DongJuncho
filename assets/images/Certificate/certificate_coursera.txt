@@ -1,0 +1,39 @@
+        <table style="border:none;">
+        <tbody>
+          <tr>
+              <td style="border:none;"><a href="https://coursera.org/share/0ae7db95277f08f2f820893db185eb61" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Technical_Support_Fundamentals-page-001.jpg" title="Technical Support Fundamentals" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/cc357cf57b805dd66a35def8de7b13ef" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Crash_Course_on_Python-page-001.jpg" title="Crash Course on Python" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/a27a7d74c9bd4c142bde243f5177567c" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/The_Data_Scientist_Toolbox-page-001.jpg" title="The Data Scientist’s Toolbox"width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/980d1dedddf93d70913dd96821e0f9e4" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/R_Programming-page-001.jpg" title="R Programming" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/6a3d1f624ac2467156883840989cc967" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Getting_and_Cleaning_Data-page-001.jpg" title="Getting and Cleaning Data" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/00c13426864c95b4d83dd49e5ea0eee3" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Exploratory_Data_Analysis-page-001.jpg" title="Exploratory Data Analysis" width="150" height="125" /><br /></a></td>
+              </tr>
+              <tr>
+              <td style="border:none;"><a href="https://coursera.org/share/54a934a80fda5576e78f8347b125042d" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Reproducible_Research-page-001.jpg" title="Reproducible Research" width="150" height="125" /><br /></a></td> 
+
+              <td style="border:none;"><a href="https://coursera.org/share/e58e93d6806e74585ef870e4967d9fbc" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Statistical_Inference-page-001.jpg" title="Statistical Inference" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/3ed2cd64ef372da3b291b2e407d80d1f" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Regression_Models-page-001.jpg" title="Regression Models" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/b12115cce1036df92cc3d5baf82ad070" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Practical_Machine_Learning-page-001.jpg" title="Practical Machine Learning" width="150" height="125" /><br /></a></td>
+
+              <td style="border:none;"><a href="https://coursera.org/share/336021d9dae02f2180ff8510ceed080f" target="_blank" rel="noopener"><br />
+              <img src="../assets/images/Certificate/Developing_Data_Products-page-001.jpg" title="Developing Data Products" width="150" height="125" /><br /></a></td>
+          </tr>
+        </tbody>
+      </table>
