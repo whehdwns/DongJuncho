@@ -5,12 +5,15 @@
 <meta property="og:title" content="Dongjun Cho's Website">
 <meta property="og:description" content="This is the website made by Dongjun Cho.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 4</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 <style>
 .sidenav {
   height: 100%;
-  width: 230px;
+  width: 240px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -33,6 +36,21 @@ body[data-nighttime] .sidenav {
   overflow-x: hidden;
   padding-top: auto;
 }
+{
+    box-sizing: border-box;
+}
+.column {
+  float: left;
+}
+.left {
+    width: 50%;
+}
+.row {
+    margin-left: 245px;
+    margin-bottom: 25px;
+    content: "";
+    clear: both;
+}
 .sidenav ul li ul li a {
   font: 12px   Arabic Transparent;
   font-weight:normal;
@@ -49,18 +67,27 @@ body[data-nighttime] .sidenav {
   display: block;
 }
 
+a, a:hover, a:visited, a:active {
+  color: inherit;
+ }
+h2, h3 {
+    font-family: Georgia, sans-serif;
+}
 .sidenav .img_logo{
   width: 125px;
   height:125px;
   border-radius: 100px;
 }
 
-
-
+.container{
+    margin-left: 30%;
+}
 .main {
   margin-left: 240px; /* Same as the width of the sidenav */
   font-size: 25px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+  margin-top:30px;
+  margin-bottom:20px;
 }
 #Menu ul {display:none;}
 #Menu li:hover > ul {display:block;}
@@ -97,35 +124,19 @@ hr {
     width: 100%;
 }
 
-.container {
-  margin-bottom: 150px;
-  margin-left: 230px; /* Same as the width of the sidenav */
-  font-size: 25px; /* Increased text to enable scrolling */
-}
-
-.container_2 {
-  margin-bottom: 50px;
-  margin-left: 230px; /* Same as the width of the sidenav */
-  font-size: 25px; /* Increased text to enable scrolling */
-}
-
-
-a{
-color: black;
-}
-
 </style>
 
 
 </head>
+
 <body class="stretched side-header">
 <div id="wrapper" class="clearfix">
 
 <header id="header" class="no-sticky">
-    <body data-daytime>
+  <body data-daytime>
       <div class="sidenav">
           <script src="../js/side_background.js"></script>
-              
+          
             <div id="icon" class="nobottomborder" style ="padding-top: 30px">
                 <a href="../index.html" target="_self">
                   <center>
@@ -133,10 +144,10 @@ color: black;
                   </center></a>
             </div>
 
-            
+                <!--<i class="fa fa-home fa-6" aria-hidden="true" style="font-size:100px;"></i></a>
+            </div>--><!-- #logo end -->
             <nav id="primary-menu" style="padding-left: 35px; padding-top: none">
               <ul id = "Menu">   
-
                   <!--<li snb-code="01" main-title="Protitle"><a href="../view/profile.html"><div class="snb-title">Profile</div></a></li>-->
 
                   <li snb-code="02" main-title="Resume"><a href="../view/resume.html"><div class="snb-title">Resume</div></a></li>
@@ -171,81 +182,60 @@ color: black;
 </body>
 </header>
 
-<section id="top">
-  <div class ="main" >
-      <h2>Code Project</h2>
+<section id="title">
+  <div class ="main" style ="text-align: center;">
+    <h2><strong>Data Analytics</strong></h2>
   </div>
-  <hr>
 </section>
 
-<section id="Project">
-      <div class ="container_2">
-        <h4 style="text-align:left;">
-          <a href="../view/data_analytics_page1.html" target="_blank" rel="noopener">Data Analysis Learning </a>
-          <span style="float:right;">
-           March 2021 - Presents
-          </span>
-        </h4>
-        <p> Analyzed datasets using ML concepts in Python Jupyter Notebooks.  </p>
+
+<section id="content">
+  <div class="row">
+    <div class="column left">
+    <h3><strong> <a href="https://github.com/whehdwns/Data_Analysis_Learning/tree/main/Adult%20Census%20Income" target="_blank" rel="noopener">Adult Census Income</a></strong></h3>
+    <img src='../assets/images/adult_census_income.png', width="400" height="250">
+    <h4>Predict whether income exceeds $50K/yr based on census data using <a href="https://www.kaggle.com/uciml/adult-census-income" target="_blank" rel="noopener">Kaggle Dataset</a> </h4>
     </div>
-  
-  
-    <div class ="container_2">
-        <h4 style="text-align:left;">
-          Next Word Predictor
-          <span style="float:right;">
-           July 2020 - August 2020
-          </span>
-        </h4>
-        <p> Built Word Predictor Application using Shiny Application in RStudio. Implemented with Natural Language Processing (NLP) and Text mining. This project is from <a href="https://coursera.org/share/49c397b0e2a3fb65da175241c627ab52" target="_blank" rel="noopener">Capstone Project for the Data Science Speicalization</a> Course from Coursera.  </p>
+    <div class="column left">
+   <h3><strong> <a href="https://github.com/whehdwns/Data_Analysis_Learning/tree/main/Breast_Cancer_Diagnostic_Wisconsin" target="_blank" rel="noopener">Breast Cancer Diagnostic</a></strong></h3>
+    <img src='../assets/images/breast_cancer_dataset.jpg', width="400" height="250">
+    <h4>Predict whether the cancer is benign or malignant using <a href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data" target="_blank" rel="noopener">Kaggle Dataset</a> </h4>
     </div>
-
-    <div class ="container_2">
-        <h4 style="text-align:left;">
-          Simple Translator
-          <span style="float:right;">
-           March 2020 - April 2020
-          </span>
-        </h4>
-        <p>Built Simple Translate Program using Speech to Text-tz and Language Translator-wv API From IBM Cloud. Designed with Tkinter in Python. This project is based on <a href="https://www.youracclaim.com/badges/3cafb71c-bd4f-478c-becd-bf182617e6b4/public_url" target="_blank" rel="noopener">Python for Data Science in Cognitive Class</a> by IBM. </p>
+  </div>
+  <div class="row">
+    <div class="column left">
+   <h3><strong> <a href="https://github.com/whehdwns/Data_Analysis_Learning/tree/main/Credit_Card_Fraud_Detection" target="_blank" rel="noopener">Credit Card Fraud Detection</a></strong></h3>
+    <img src='../assets/images/credit_card_fraud_detect.jpg', width="400" height="250">
+    <h4>Anonymized credit card transactions labeled as fraudulent or genuine using <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud" target="_blank" rel="noopener">Kaggle Dataset</a> </h4>
     </div>
-
-    <div class ="container">
-        <img src="../assets/images/CarRental_img.jpg" width="230" height="270" align="left"/>
-        <h4 style="text-align:left;">
-          Car Rental
-          <span style="float:right;">
-           August 2019 - December 2019
-          </span>
-        </h4><br />
-        <p>Built simple Car Rental Database using SQLiteStudio.  Designed with UML/ER diagram.  Implemented CarRental system in Android Studio. </p>
-    </div>  
-
-    <div class ="container_2" >
-        <img src="../assets/images/Find_this.jpg" width="225" height="270" align="left"/>
-        <h4 style="text-align:left;">
-          Find This
-          <span style="float:right;">
-           January 2019 - May 2019
-          </span>
-        </h4>
-        <p> <a href="https://innovatetogrow.ucmerced.edu/teams/cse-mac-spring2019" target="_blank" rel="noopener" title= "Mobile App Challenge Spring 2019"><br />CSE Mobile App Challenge </p></a>
-           <p>Built android app, using Android Studio, that is geared towards educational institutions and intended for use between instructors and students.</p>
-           <p>This project is sponsored by CZI. Collaborated with 3 team members (Team "Copy & Paste").</p>
-    </div> 
-
-    <div class ="container_2">
-        <h4 style="text-align:left; padding-top: 20px;">
-          Data Sorting Algorithms
-          <span style="float:right;">
-           August 2018 - December 2018
-          </span>
-        </h4>
-        <p>Implemented different types of sorting and graph algorithm in C++. Measured the running time for algorithms using Excel.</p>
+    <div class="column left">
+   <h3><strong> <a href="https://github.com/whehdwns/Data_Analysis_Learning/tree/main/Credit_Card_Fraud_Detection" target="_blank" rel="noopener">Google Play Sentiment Analysis</a></strong></h3>
+    <img src='../assets/images/Google_play_store.jpg', width="400" height="250">
+    <h4>Web scraped data of 10k Play Store apps for analysing the Android market using <a href="https://www.kaggle.com/lava18/google-play-store-apps" target="_blank" rel="noopener">Kaggle Dataset</a> </h4>
     </div>
-
+  </div>
 </section>
 
+<section id="page_move">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="pagination">
+<!--          <li class="page-item"><a class="page-link" href="#">Previous</a></li> -->
+         <li class="page-item"><a class="page-link" href="#">1</a></li>
+         <li class="page-item"><a class="page-link" href="data_analytics_page2.html">2</a></li>
+         <li class="page-item"><a class="page-link" href="data_analytics_page3.html">3</a></li>
+<!--          <li class="page-item"><a class="page-link" href="#">4</a></li>
+         <li class="page-item"><a class="page-link" href="#">5</a></li>
+         <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</section>
 
 </body>
-</html>
+</html> 
