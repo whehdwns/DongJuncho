@@ -1,203 +1,100 @@
 .sidenav {
-    height: 100%;
-    width: 240px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: url('../images/intro-bg-b.jpg') center center no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-    padding-top: auto;
-  }
-  
-  body[data-nighttime] .sidenav {
-    height: 100%;
-    width: 230px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: url('../images/intro-bg-a.jpg') center center no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-    padding-top: auto;
-  }
-  body{
-      margin:0;
-      font-family: sans-serif;
-      background-color: #efefef;
-  }
-  *{
-      box-sizing: border-box;
-  }
-  
-  .sidenav .img_logo{
-    width: 125px;
-    height:125px;
-    border-radius: 100px;
-  }
-  
-  .main {
-    margin-left: 240px; /* Same as the width of the sidenav */
-    font-size: 25px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    margin-top:30px;
-    margin-bottom:20px;
-  }
-  #Menu ul {display:none;}
-  #Menu li:hover > ul {display:block;}
-  
-  #Menu a {
-    display: block;
-    padding: 10px 5px;
-    text-decoration: none;
-    color: #ffffff;
-  }
-  #Menu a:hover {
-    color: #7b9c75;
-  }
-  
-  #icon a {
-    display: block; 
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  #icon a:hover {
-    color: #7b9c75;
-  }
-  
-  i { display: block; margin: 0 6px; margin-top: 15px }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav ul {font-size: 18px;}
-  }
-  
-   h2, h3, h4, h5 {
-      font-family: Georgia, sans-serif;
-  }
-  
-  hr {
-      max-width: 100%;
-      width: 100%;
-  }
-  
-  a, a:hover, a:visited, a:active {
-    color: inherit;
-   }
-  
-  .sidenav ul li ul li a {
-    font: 12px   Arabic Transparent;
-    font-weight:normal;
-    padding-top:1px;
-    padding-bottom:3px;
-  }
-  
-  .sidenav ul {
-    font: 12px   Arabic Transparent;
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-  }
-  
-  .column {
-    float: left;
-  }
-  .left {
-      width: 50%;
-  }
-  .row {
-      margin-left: 245px;
-      margin-bottom: 25px;
-      content: "";
-      clear: both;
-  }
-  
-  .container{
-      max-width: 1330px;
-      margin: auto;
-  }
-  .gallery{
-      padding-left: 50px;
-      width: 100%;
-      padding-left: 20%;
-  }
-  .gallery .title h1{
-      font-size:36px;
-      margin:0 0 30px;
-      color:#000000;
-      text-align: center;
-  }
-  .gallery .gallery-items .item{
-      float: right;
-      width:50%;
-      position: relative;
-      padding:10px;
-  }
-  .gallery .gallery-items .item.hide{
-      display: none;
-  }
-  .gallery .gallery-items .item.show{
-      display: block;
-      animation: show .5s ease;
-  }
-  @keyframes show{
-      0%{
-          opacity:0;
-          transform: scale(0.9);
-      }
-      100%{
-          opacity:1;
-          transform: scale(1);
-      }
-  }
-  
-  
-  .gallery .gallery-items .item img{
-      width: 100%;
-      display: block;
-  }
-  .gallery .gallery-items .item .caption{
-      position: absolute;
-      left:0px;
-      bottom:0;
-      background-color: rgba(0,0,0,.5);
-      padding:10px;
-      width: 100%;
-      color:#ffffff;
-      text-align: center;
-  }
-  .gallery .pagination{
-      width: 100%;
-      float: right;
-      padding:15px;
-      text-align: center;
-      margin: auto;
-      padding-left: 35%;
-  }
-  .gallery .pagination div{
-      display: inline-block;
-      margin:0 10px;
-  }
-  .gallery .pagination .page{
-      color:gray;
-  }
-  .gallery .pagination .prev,.gallery .pagination .next{
-   color:#000;
-   border:1px solid #000;
-   font-size:15px;
-   padding:7px 15px;
-   cursor: pointer;
-  }
-  
-  .gallery .pagination .prev.disabled,
-  .gallery .pagination .next.disabled{
-      border-color: gray;
-      color:gray;
-      pointer-events: none;
-  }
-  
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url('../images/intro-bg-b.jpg') center center no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  padding-top: auto;
+}
+
+body[data-nighttime] .sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: url('../images/intro-bg-a.jpg') center center no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  padding-top: auto;
+}
+/* {
+    box-sizing: border-box;
+} */
+
+.sidenav ul li ul li a {
+  font: 12px   Arabic Transparent;
+  font-weight:normal;
+  padding-top:1px;
+  padding-bottom:3px;
+}
+
+.sidenav ul {
+  font: 12px   Arabic Transparent;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav .img_logo{
+  width: 125px;
+  height:125px;
+  border-radius: 100px;
+}
+
+.main {
+  margin-left: 240px; /* Same as the width of the sidenav */
+  font-size: 25px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+#Menu ul {display:none;}
+#Menu li:hover > ul {display:block;}
+
+#Menu a {
+  display: block;
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+#Menu a:hover {
+  color: #7b9c75;
+}
+
+#icon a {
+  display: block; 
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#icon a:hover {
+  color: #7b9c75;
+}
+
+i { display: block; margin: 0 6px; margin-top: 15px }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav ul {font-size: 18px;}
+}
+
+ h1,h2, h3, h4, h5 {
+    font-family: Georgia, sans-serif;
+}
+
+hr {
+    max-width: 100%;
+    width: 100%;
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+}
